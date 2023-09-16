@@ -323,14 +323,22 @@
 	<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 <script>
 	
-	  $(function(){
+	$(function(){
     $('.submit').click(function(){
         var bglink = $(this).attr("href");
         $(".container")
          .css("background-image","url(./winter.jpg)");
          return false;
     });
-});
+	});
+/*	$(function(){
+    $('.submit').click(function(){
+        var bglink = $(this).attr("href");
+        $(".container")
+        .("url(./winter.jpg)","url(./spring.jpeg));
+         return false;
+    });
+	});*/
 </script>
 </head>
 
